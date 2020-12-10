@@ -2152,14 +2152,6 @@ Wire Wire Line
 Connection ~ 9300 7150
 Text GLabel 14650 7150 2    50   Input ~ 0
 V_GATE
-Wire Wire Line
-	8450 7150 9000 7150
-Wire Wire Line
-	9300 7150 9900 7150
-Wire Wire Line
-	10200 7150 10750 7150
-Wire Wire Line
-	11050 7150 11600 7150
 $Comp
 L Device:R_US R26
 U 1 1 6030143E
@@ -2171,12 +2163,6 @@ F 3 "~" H 12450 7300 50  0001 C CNN
 	1    12450 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11900 7150 12450 7150
-Wire Wire Line
-	12750 7150 13350 7150
-Wire Wire Line
-	13650 7150 14200 7150
 Wire Wire Line
 	14650 7150 14500 7150
 Connection ~ 14500 7150
@@ -2875,12 +2861,12 @@ Wire Wire Line
 $Comp
 L Device:R_US R55
 U 1 1 60C29BC0
-P 2050 9150
-F 0 "R55" H 1982 9104 50  0000 R CNN
-F 1 "10k" H 1982 9195 50  0000 R CNN
-F 2 "" V 2090 9140 50  0001 C CNN
-F 3 "~" H 2050 9150 50  0001 C CNN
-	1    2050 9150
+P 2750 9250
+F 0 "R55" H 2682 9204 50  0000 R CNN
+F 1 "10k" H 2682 9295 50  0000 R CNN
+F 2 "" V 2790 9240 50  0001 C CNN
+F 3 "~" H 2750 9250 50  0001 C CNN
+	1    2750 9250
 	1    0    0    1   
 $EndComp
 Connection ~ 2050 9550
@@ -3046,27 +3032,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 10050 4850 10050
 Connection ~ 5000 10050
-Connection ~ 9000 7150
-Wire Wire Line
-	9000 7150 9300 7150
-Connection ~ 9900 7150
-Wire Wire Line
-	9900 7150 10200 7150
-Connection ~ 10750 7150
-Wire Wire Line
-	10750 7150 11050 7150
-Connection ~ 11600 7150
-Wire Wire Line
-	11600 7150 11900 7150
-Connection ~ 12450 7150
-Wire Wire Line
-	12450 7150 12750 7150
-Connection ~ 13350 7150
-Wire Wire Line
-	13350 7150 13650 7150
-Connection ~ 14200 7150
-Wire Wire Line
-	14200 7150 14500 7150
 Wire Wire Line
 	3750 8850 3750 9300
 Wire Wire Line
@@ -3294,12 +3259,12 @@ Wire Wire Line
 $Comp
 L Device:R_US R17
 U 1 1 6126E4BA
-P 2050 6600
-F 0 "R17" H 1982 6554 50  0000 R CNN
-F 1 "10k" H 1982 6645 50  0000 R CNN
-F 2 "" V 2090 6590 50  0001 C CNN
-F 3 "~" H 2050 6600 50  0001 C CNN
-	1    2050 6600
+P 2750 6700
+F 0 "R17" H 2682 6654 50  0000 R CNN
+F 1 "10k" H 2682 6745 50  0000 R CNN
+F 2 "" V 2790 6690 50  0001 C CNN
+F 3 "~" H 2750 6700 50  0001 C CNN
+	1    2750 6700
 	1    0    0    1   
 $EndComp
 Connection ~ 2050 7000
@@ -3639,14 +3604,6 @@ Wire Notes Line
 Wire Notes Line
 	6250 3150 4900 3150
 Wire Wire Line
-	2050 6750 2050 7000
-Wire Wire Line
-	2050 6200 2050 6450
-Wire Wire Line
-	2050 9300 2050 9550
-Wire Wire Line
-	2050 8750 2050 9000
-Wire Wire Line
 	1650 6100 1500 6100
 Wire Wire Line
 	1650 6900 1500 6900
@@ -3655,4 +3612,32 @@ Wire Wire Line
 Wire Wire Line
 	1500 8650 1650 8650
 Connection ~ 10750 3650
+Wire Wire Line
+	8450 7150 9300 7150
+Wire Wire Line
+	9300 7150 10200 7150
+Wire Wire Line
+	10200 7150 11050 7150
+Wire Wire Line
+	11050 7150 11900 7150
+Wire Wire Line
+	11900 7150 12750 7150
+Wire Wire Line
+	12750 7150 13650 7150
+Wire Wire Line
+	13650 7150 14500 7150
+Wire Wire Line
+	2750 9400 2750 9450
+Connection ~ 2750 9450
+Wire Wire Line
+	2750 9100 2050 9100
+Wire Wire Line
+	2050 8750 2050 9100
+Wire Wire Line
+	2750 6900 2750 6850
+Connection ~ 2750 6900
+Wire Wire Line
+	2750 6550 2050 6550
+Wire Wire Line
+	2050 6200 2050 6550
 $EndSCHEMATC
