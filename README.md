@@ -13,6 +13,9 @@ Any builder is encouraged to experiment and make changed to the project to suit 
 
 # Frequently Asked Questions
 ## Building the thing
+#### Do you have PCBs / panels available?
+Not at this point. I'm working on designing a perfboard/stripboard layout. I want to encourage any builder to come up with their own panel layout, make whatever feels natural to them.
+
 #### How to I add more steps?
 Simply copy the main sequencer section as many times as you like. The connections between the 74HC595s are noted in the schematic. The latch and clock pins simply connect together, the serial out of each register connects to the serial in of the next. In the code, change the value of `N_STEPS` and voila!
 
