@@ -1,4 +1,4 @@
-# Arduino-Sequencer
+# Arduino Sequencer
 This projects contains schematics and firmware for a step sequencer compatible with Eurorack and Kosmo modular synthesizers, based on an Arduino Nano. This is a DIY project, suitable for beginners, allthough a general knowledge of electronics, basic tools and skills are required to build this sequencer. The schematics presented here feature:
 
 - 8 steps, 2 voices
