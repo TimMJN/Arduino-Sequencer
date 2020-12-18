@@ -3888,6 +3888,7 @@ F 3 "~" H 3150 9400 50  0001 C CNN
 	1    3150 9400
 	1    0    0    -1  
 $EndComp
+Connection ~ 7550 10050
 $Comp
 L Device:CP1 C9
 U 1 1 60963BE4
@@ -3899,5 +3900,4 @@ F 3 "~" H 7550 10200 50  0001 C CNN
 	1    7550 10200
 	1    0    0    -1  
 $EndComp
-Connection ~ 7550 10050
 $EndSCHEMATC
