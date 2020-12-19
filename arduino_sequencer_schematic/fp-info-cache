@@ -1,4 +1,4 @@
-19034090893975596
+19035699269572419
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81655,12 +81655,19 @@ Jack_6.35mm_AMPHENOL_ACJS-MN-5
 5
 5
 TimMJN
+Jack_JST_conn_1x02_P2.50mm
+JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH vertical
+0
+2
+2
+TimMJN
 Mom_push_button
 
 
 0
-0
-0
+2
+2
 TimMJN
 Switch_DP
 

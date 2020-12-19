@@ -723,17 +723,6 @@ Text GLabel 5750 2850 2    50   Input ~ 0
 DEC_LED
 Text GLabel 8400 2000 3    50   Output ~ 0
 INC_LED
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J16
-U 1 1 5FDF3CD0
-P 10050 10050
-F 0 "J16" H 10100 10500 50  0000 C CNN
-F 1 "Conn_02x05" H 10100 10400 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 10050 10050 50  0001 C CNN
-F 3 "~" H 10050 10050 50  0001 C CNN
-	1    10050 10050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9850 9950 9850 10050
 Wire Wire Line
@@ -3912,4 +3901,15 @@ Wire Wire Line
 Connection ~ 2000 9550
 Wire Wire Line
 	2000 9550 2150 9550
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J16
+U 1 1 604B4B47
+P 10050 10050
+F 0 "J16" H 10100 10500 50  0000 C CNN
+F 1 "Conn_02x05" H 10100 10400 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 10050 10050 50  0001 C CNN
+F 3 "~" H 10050 10050 50  0001 C CNN
+	1    10050 10050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
