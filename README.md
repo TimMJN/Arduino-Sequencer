@@ -35,7 +35,7 @@ This I would strongly advice against. It's very easy to fry the Arduino by plugg
 Yes, just simply don't include it.
 
 #### Can I change the gate voltage?
-Yes, that's why it's marked separately in the schematic. By attaching it to the 5V rail, the gate voltage is 5V minus one transistor drop, so about 4.4V. This should be enough to trigger any module, as a common trigger voltage is between 2-3V. If you have some stubborn module which demands a hotter trigger, use a 7809 to create a 8.4V gate.
+Yes, that's why it's marked separately in the schematic. By attaching it to 9V, the gate voltage is 9V minus one transistor drop, so about 8.4V. This conforms to Eurorack standards. Alternatively, you could omit these parts and connect V_GATE to 5V. This should be enough to trigger almost any module, as a common trigger voltage is between 2-3V.
 
 ## Coding the thing
 #### Why don't you use `shiftOut`?
