@@ -363,9 +363,9 @@ Wire Wire Line
 	2200 4950 1950 4950
 Text GLabel 8000 2000 3    50   Input ~ 0
 CLOCK_IN
-Text GLabel 8100 2000 3    50   Input ~ 0
-FLIP_IN
 Text GLabel 8200 2000 3    50   Input ~ 0
+FLIP_IN
+Text GLabel 8100 2000 3    50   Input ~ 0
 RESET_IN
 $Comp
 L Device:R_POT_US RV1

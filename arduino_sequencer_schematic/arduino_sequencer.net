@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\Dropbox\Projecten\SYNTH\arduino_sequencer\Arduino-Sequencer\arduino_sequencer_schematic\arduino_sequencer.sch)
-    (date "3-1-2021 01:29:10")
+    (date "3-1-2021 15:09:52")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2033,7 +2033,7 @@
       (node (ref R11) (pin 1))
       (node (ref R9) (pin 2))
       (node (ref D5) (pin 1))
-      (node (ref A1) (pin 7))
+      (node (ref A1) (pin 6))
       (node (ref C2) (pin 1)))
     (net (code 72) (name "Net-(R11-Pad2)")
       (node (ref SW3) (pin 1))
@@ -2143,7 +2143,7 @@
       (node (ref R16) (pin 1))
       (node (ref Q3) (pin 3))
       (node (ref R15) (pin 2))
-      (node (ref A1) (pin 6))
+      (node (ref A1) (pin 7))
       (node (ref D8) (pin 1))
       (node (ref C5) (pin 1)))
     (net (code 103) (name "Net-(J3-PadT)")
