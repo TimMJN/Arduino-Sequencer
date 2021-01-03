@@ -132,9 +132,6 @@ void set_direction_leds() {
 void set_shift_register(byte step_index) {
   noInterrupts(); // do not interrupt writing to the shift register
 
-  // lower the latch to write data to shift register
-  digitalWrite(SER_LATCH_PIN, LOW);
-
   // loop over the steps, starting from the last
   for (int i = (N_STEPS - 1); i >= 0; i--) {
     if (i == step_index)
@@ -152,8 +149,9 @@ void set_shift_register(byte step_index) {
 // interrupt function
 // push shift register to output, prepare for the next step
 void take_step() {
-  // push to output register
+  // push to output register (pulse latch pin)
   digitalWrite(SER_LATCH_PIN, HIGH);
+  digitalWrite(SER_LATCH_PIN, LOW);
 
   // update steps
   cur_step = next_step;
