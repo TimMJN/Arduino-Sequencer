@@ -56,6 +56,9 @@ void setup() {
 
   // set shift register to next step
   set_shift_register(next_step);
+
+  // do a small delay to prevent startup affecting inputs
+  delay(100);
 }
 
 void loop() {
