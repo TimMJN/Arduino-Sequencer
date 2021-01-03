@@ -1,4 +1,4 @@
-19035699269602275
+19040530725488840
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81648,6 +81648,20 @@ test point THT pad
 1
 1
 TimMJN
+Arduino_Nano
+Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino Nano
+0
+30
+30
+TimMJN
+Arduino_Nano_2x_header
+Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino Nano
+0
+60
+30
+TimMJN
 Jack_6.35mm_AMPHENOL_ACJS-MN-5
 
 
@@ -81662,9 +81676,16 @@ connector JST EH vertical
 2
 2
 TimMJN
-Mom_push_button
+Mom_push_button_PBS-110
 
 
+0
+2
+2
+TimMJN
+R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_Value_SilkS
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
 0
 2
 2
