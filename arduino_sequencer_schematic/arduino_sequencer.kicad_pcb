@@ -29,7 +29,7 @@
     (45 Margin user hide)
     (46 B.CrtYd user hide)
     (47 F.CrtYd user hide)
-    (48 B.Fab user hide)
+    (48 B.Fab user)
     (49 F.Fab user hide)
   )
 
@@ -8973,7 +8973,7 @@
   (gr_text github.com/TimMJN (at 255.5 236.5) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.3)))
   )
-  (gr_text 07-01-2021 (at 344 118) (layer F.SilkS)
+  (gr_text 30-12-2020 (at 344 118) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (gr_poly (pts (xy 338.558444 185.696286) (xy 339.441556 187.825279) (xy 332.630096 187.129484) (xy 329.081573 190.039894) (xy 322 188.75) (xy 317.843108 192.529252) (xy 311.427587 192.137342) (xy 306.445265 195.554426) (xy 301.304166 195.191657) (xy 296.75 196.5) (xy 301.130518 194.206849) (xy 305.982003 194.366828) (xy 311.210527 190.906332) (xy 317.379846 191.341655) (xy 321.739528 187.272788) (xy 328.661723 189.098499) (xy 331.746983 185.000491)) (layer F.SilkS) (width 0.1))
