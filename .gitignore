@@ -2,3 +2,14 @@
 *.sch-bak
 *.tmp
 *.kicad_pcb-bak
+*.lib
+*.kicad_pcb
+*.net
+*.pro
+*.sch
+arduino_sequencer_schematic/fp-info-cache
+*.gbr
+*.drl
+arduino_sequencer_schematic/arduino_sequencer_BOM.csv
+arduino_sequencer_schematic/arduino_sequencer_BOM.xlsx
+arduino_sequencer_schematic/gerber.zip
