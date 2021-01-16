@@ -1,3 +1,20 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/* 
+ * Arduino Sequencer
+ * synthesizer module firmware
+ * 
+ * by TimMJN
+ * 
+ * v1.0 
+ * 16-01-2021
+ * 
+ * For schematics and other information, see
+ * https://github.com/TimMJN/Arduino-Sequencer
+ */
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // pin definitions
 #define CLOCK_PIN     2
 #define RESET_PIN     3
@@ -24,6 +41,8 @@ bool cur_flip_state   = true;
 bool prev_flip_state  = true;
 bool cur_rand_state   = true;
 bool prev_rand_state  = true;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void setup() {
   // pin modes
@@ -60,6 +79,8 @@ void setup() {
   // do a small delay to prevent startup affecting inputs
   delay(100);
 }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void loop() {
   // read reset and flip inputs
@@ -100,6 +121,8 @@ void loop() {
   prev_rand_state  = cur_rand_state;
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // set what will be the next step
 void set_next_step() {
   if (reset) {
@@ -116,6 +139,8 @@ void set_next_step() {
   }
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // set the direction LEDs
 void set_direction_leds() {
   if (dir_inc) {
@@ -127,6 +152,8 @@ void set_direction_leds() {
     digitalWrite(INC_LED_PIN, LOW);
   }
 }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // write the required state to the shift register
 void set_shift_register(byte step_index) {
@@ -144,7 +171,9 @@ void set_shift_register(byte step_index) {
   }
 
   interrupts(); // re-enable interrupts
-}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////}
 
 // interrupt function
 // push shift register to output, prepare for the next step
