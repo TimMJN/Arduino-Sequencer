@@ -34,9 +34,6 @@ This I would strongly advice against. It's very easy to fry the Arduino by plugg
 #### Can I leave out the randomise switch?
 Yes, just simply don't include it.
 
-#### Can I change the gate voltage?
-Yes. On the schematic it is attached to 9V, such that the gate voltage is 9V minus one transistor drop, so about 8.4V. This conforms to Eurorack standards. Alternatively, you could omit these parts and connect V_GATE to 5V. This should be enough to trigger almost any module, as a common trigger voltage is between 2-3V.
-
 ## The code
 #### Why don't you use `shiftOut`?
 The serial output code I wrote here does the exact same thing as `shiftOut`. I only adapted it to output any number of steps, as the standard 8 bits by `shiftOut`.
