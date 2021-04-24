@@ -13,3 +13,10 @@ arduino_sequencer_schematic/fp-info-cache
 arduino_sequencer_schematic/arduino_sequencer_BOM.csv
 arduino_sequencer_schematic/arduino_sequencer_BOM.xlsx
 arduino_sequencer_schematic/gerber.zip
+*.gbl
+*.gbs
+*.gbo
+*.gtl
+*.gts
+*.gto
+*.debug
