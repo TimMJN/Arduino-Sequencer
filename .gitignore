@@ -20,3 +20,5 @@ arduino_sequencer_schematic/gerber.zip
 *.gts
 *.gto
 *.debug
+*.zip
+*.gm1
